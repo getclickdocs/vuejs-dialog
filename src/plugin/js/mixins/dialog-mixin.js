@@ -12,7 +12,7 @@ import ButtonMixin from '../../js/mixins/btn-mixin'
 export default {
 	data: function () {
 		return {
-			input: '',
+			input: this.options.input,
 			loading: false
 		}
 	},
