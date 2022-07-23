@@ -360,7 +360,8 @@ let options = {
     verificationHelp: 'Type "[+:verification]" below to confirm', // Verification help text. [+:verification] will be matched with 'options.verification' (i.e 'Type "continue" below to confirm')
     clicksCount: 3, // for soft confirm, user will be asked to click on "proceed" btn 3 times before actually proceeding
     backdropClose: false, // set to true to close the dialog when clicking outside of the dialog window, i.e. click landing on the mask
-    customClass: '' // Custom class to be injected into the parent node for the current dialog instance
+    customClass: '', // Custom class to be injected into the parent node for the current dialog instance
+    input: '' // prompt input text
 };
 
 this.$dialog.confirm(message, options)
